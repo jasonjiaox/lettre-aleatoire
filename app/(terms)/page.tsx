@@ -1,3 +1,4 @@
+import Link from "next/link"
 import {siteConfig} from "@/config/site"
 import {AleatoireLettre} from "@/components/aleatoire-lettre";
 import {SocialMediaShare} from "@/components/social-media-share";
@@ -58,6 +59,27 @@ export default async function IndexPage() {
             Actuellement, la valeur par défaut est pour les lettres anglaises. D&#39;autres langues telles que le
             français, l&#39;espagnol, l&#39;allemand, le russe, le chinois, les lettres japonaises seront bientôt
             développées.
+          </p>
+        </div>
+      </section>
+
+      <section id="open-source" className="container py-8 md:py-12 lg:py-24">
+        <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center">
+          <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+            Fièrement Open Source
+          </h2>
+          <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+            Lettre Aléatoire est open source et propulsé par des logiciels libres. <br />{" "}
+            Le code est disponible sur {" "}
+            <Link
+              href={siteConfig.links.github}
+              target="_blank"
+              rel="noreferrer"
+              className="underline underline-offset-4"
+            >
+              GitHub
+            </Link>
+            .{" "}
           </p>
         </div>
       </section>

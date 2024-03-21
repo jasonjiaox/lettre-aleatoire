@@ -11,6 +11,6 @@ export const siteConfig: SiteConfig = {
   mailto: "support@lettrealeatoire.fr",
   links: {
     twitter: "",
-    github: "",
+    github: "https://github.com/jasonjiaox/lettre-aleatoire",
   },
 }

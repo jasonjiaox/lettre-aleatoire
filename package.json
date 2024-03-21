@@ -1,6 +1,14 @@
 {
   "name": "lettre-aleatoire",
   "version": "1.0.0",
+  "description": "Un outil en ligne capable de générer des nombres aléatoires.",
+  "author": "Jason Jiao",
+  "license": "Apache-2.0",
+  "homepage": "https://www.lettrealeatoire.fr/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonjiaox/lettre-aleatoire.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
